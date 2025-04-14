@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget{
       appBar: AppBar(
         centerTitle: true,
         backgroundColor:Colors.blue ,
-       title: Text('My app'),
+       title: Text('My Mother'),
       ),
       body: Image.asset('images/n.jpg')
 
