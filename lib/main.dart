@@ -25,24 +25,30 @@ class MyHomePage extends StatelessWidget{
  Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        centerTitle: true,
-        backgroundColor:Colors.blue ,
+        elevation: 100,
        title: Text('My Mother app'),
+
       ),
-      body: Center(child:Container(
-        height: 200,
-        width: 200,
-        child:Image.asset('images/n.jpg'),
-      ),
-      ),
+      body:
+      Container(
+        color:Colors.yellowAccent,
+        height: 300,
+        width: 300,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment:CrossAxisAlignment.stretch ,
+          children: [
+            Text('A'),
+            Text('B'),
+            Text('C'),
+            Text('D'),
+            ElevatedButton(onPressed:(){
 
-
-
-
-
-
-
-
+            }, child: Text('Click here!'),)
+          ],
+        ),
+      )
+      ,
     );
   }
 }
