@@ -25,7 +25,7 @@ class _MostPopularState extends State<MostPopular> {
                 child: Image.asset(travel.img,height: 150,width: 150,fit: BoxFit.cover,),
               ),
                 Positioned(
-                  bottom: 60,left: 10,
+                  bottom: 60,left: 9,
                   child: Column(
                   children: [
                     Text(travel.name,style: TextStyle(color: Colors.limeAccent),),
