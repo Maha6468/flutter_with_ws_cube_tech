@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_with_ws_cube_tech/flutter_practice/practice.dart';
+import 'package:flutter_with_ws_cube_tech/flutter_practice/splash_Screen.dart';
 void main(){
   runApp(MyApp());
 }
@@ -14,8 +14,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        useMaterial3: false
       ),
-      home:GridVeiw_E(),
+     home:SplashScreen(),
     );
   }
 }
